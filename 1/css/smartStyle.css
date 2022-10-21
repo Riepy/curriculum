@@ -1,0 +1,35 @@
+@media screen and (max-width: 479px) {
+    .header {
+        width: 200px;
+        height: 200px;
+    }
+    .white-box {
+        width: 40px;
+        height: 140px;
+        padding: 10px;
+        flex-flow:column;
+        top: 20px;
+        right: 70px;
+    }
+    .main {
+        width: 200px;
+        height: auto;
+        flex-flow:column;
+    }
+    .left {
+        width: 200px;
+        height: 100px;
+    }
+    .right {
+        width: 140px;
+        height: 170px;
+        padding: 20px 30px;
+        flex-flow:column;
+    }
+    .orage-box {
+        width: 130px;
+    }
+    .footer {
+        width: 200px;
+    }
+}

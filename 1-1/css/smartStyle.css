@@ -1,0 +1,89 @@
+@media screen and (min-width: 767px) {
+}
+@media screen and (max-width: 767px) {
+    .header {
+        width: 300px;
+    }
+    .main {
+        width: 300px;
+    }
+    .left {
+        width: 100px;
+    }
+    .right {
+        width:200px;
+    }
+    .card_1 {
+        width: 200px;
+    }
+    .card_1_1 {
+        width: 125px;
+    }
+    .card_1_1_1 {
+        width: 125px;
+    }
+    .card_1_1_2 {
+        width: 125px;
+    }
+    .card_1_2 {
+        width: 75px;
+    }
+    .card_2 {
+        width: 200px;
+    }
+    .footer {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 479px) {
+    .header {
+        width: 150px;
+    }
+    .main {
+        width: 150px;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+    }
+    .left {
+        width: 150px;
+        height: 100px;
+    }
+    .right {
+        width:150px;
+        height: auto;
+    }
+    .card_1 {
+        width: 150px;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        flex-direction: column-reverse;
+    }
+  
+    .card_1_1 {
+        width: 150px;
+        height: 150px;
+    }
+    .card_1_1_1 {
+        width: 150px;
+        height: 50px;
+    }
+    .card_1_1_2 {
+        width: 150px;
+        height: 100px;
+    }
+    .card_1_2 {
+        width: 150px;
+        height: 100px;
+    }
+    .card_2 {
+        width: 150px;
+        height: 100px;
+    }
+    .footer {
+        width: 150px;
+        height: 100px;
+    }
+
+}
